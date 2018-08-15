@@ -12,5 +12,9 @@ $(document).ready(function() {
 
 // Business Logic
 var leapYear = function(year) {
-  return false;
+  if (year % 4 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 };
